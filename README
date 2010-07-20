@@ -61,7 +61,6 @@ API v2.0
 
 (To be implemented)
 
-
 ### JS
 
 -- result = BrowserLua.lua.<lua-global-name>(args, ...)
