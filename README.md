@@ -22,9 +22,9 @@ Supported backends
 Planned backends
 ----------------
 
--- lua-alchemy (http://code.google.com/p/lua-alchemy)
--- js-lua (http://github.com/agladysh/js-lua)
--- ljs (http://code.matthewwild.co.uk/ljs)
+ * lua-alchemy (http://code.google.com/p/lua-alchemy)
+ * js-lua (http://github.com/agladysh/js-lua)
+ * ljs (http://code.matthewwild.co.uk/ljs)
 
 API v1.0
 --------
@@ -33,23 +33,23 @@ API v1.0
 
 ### JS
 
--- `BrowserLua.init([enabled_backends])`
+ * `BrowserLua.init([enabled_backends])`
 
--- `BrowserLua.dostring(lua_code, [chunkname])`
+ * `BrowserLua.dostring(lua_code, [chunkname])`
 
--- `BrowserLua.provideFile(path, file_contents_string)`
+ * `BrowserLua.provideFile(path, file_contents_string)`
 
--- `BrowserLua.doFile(path)`
+ * `BrowserLua.doFile(path)`
 
 ### Lua
 
--- `BrowserLua.runJS(js_code_string)`
+ * `BrowserLua.runJS(js_code_string)`
 
--- `BrowserLua.dofile(filename)`
+ * `BrowserLua.dofile(filename)`
 
--- `BrowserLua.loadfile(filename, chunkname)`
+ * `BrowserLua.loadfile(filename, chunkname)`
 
--- `BrowserLua.initWrapper()`
+ * `BrowserLua.initWrapper()`
 
   Does the equivalent of this:
 
@@ -63,8 +63,8 @@ API v2.0
 
 ### JS
 
--- result = BrowserLua.lua.<lua-global-name>(args, ...)
+ * `result = BrowserLua.lua.<lua-global-name>(args, ...)`
 
 ### Lua
 
--- result = BrowserLua.js.<js-global-name>(args, ...)
+ * `result = BrowserLua.js.<js-global-name>(args, ...)`
