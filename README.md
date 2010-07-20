@@ -35,7 +35,9 @@ API v1.0
 
  * `BrowserLua.init([enabled_backends])`
 
- * `BrowserLua.dostring(lua_code, [chunkname])`
+ * `BrowserLua.doString(lua_code, [chunkname])`
+
+ * `BrowserLua.callLua(functionName, args, ...) --> array of return values`
 
  * `BrowserLua.provideFile(path, file_contents_string)`
 
@@ -43,7 +45,7 @@ API v1.0
 
 ### Lua
 
- * `BrowserLua.runJS(js_code_string)`
+ * `BrowserLua.callJS(functionName, args, ...) --> return value`
 
  * `BrowserLua.dofile(filename)`
 
@@ -59,12 +61,10 @@ API v1.0
 API v2.0
 --------
 
-(To be implemented)
+(To be designed and implemented)
 
-### JS
-
- * `result = BrowserLua.lua.<lua-global-name>(args, ...)`
-
-### Lua
-
- * `result = BrowserLua.js.<js-global-name>(args, ...)`
+ * Data manipulation API just like lua-alchemy sugar.
+  * For JS (to manipulate Lua data)
+  * For Lua (to manipulate JS data)
+ * Modules, native to backend
+ * socket module (imitating luasocket.*)
