@@ -25,6 +25,7 @@ Planned backends
  * lua-alchemy (http://code.google.com/p/lua-alchemy)
  * js-lua (http://github.com/agladysh/js-lua)
  * ljs (http://code.matthewwild.co.uk/ljs)
+ * nacl (http://code.google.com/p/nativeclient/)
 
 API v1.0
 --------
