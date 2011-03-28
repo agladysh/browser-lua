@@ -26,6 +26,7 @@ Planned backends
  * js-lua (http://github.com/agladysh/js-lua)
  * ljs (http://code.matthewwild.co.uk/ljs)
  * nacl (http://code.google.com/p/nativeclient/)
+ * emscripten (http://code.google.com/p/emscripten/)
 
 API v1.0
 --------
