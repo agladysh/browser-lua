@@ -27,6 +27,7 @@ Planned backends
  * ljs (http://code.matthewwild.co.uk/ljs)
  * nacl (http://code.google.com/p/nativeclient/)
  * emscripten (http://code.google.com/p/emscripten/)
+ * jill (http://code.google.com/p/jillcode/), as Java applet (with some js-lua-like wrapper)
 
 API v1.0
 --------
