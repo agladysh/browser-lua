@@ -28,6 +28,8 @@ Planned backends
  * nacl (http://code.google.com/p/nativeclient/)
  * emscripten (http://code.google.com/p/emscripten/)
  * jill (http://code.google.com/p/jillcode/), as Java applet (with some js-lua-like wrapper)
+ * lua.js (https://github.com/mherkender/lua.js)
+ * brozula (https://github.com/creationix/brozula)
 
 API v1.0
 --------
