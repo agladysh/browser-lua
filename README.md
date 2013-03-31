@@ -26,7 +26,7 @@ Planned backends
  * js-lua (http://github.com/agladysh/js-lua)
  * ljs (http://code.matthewwild.co.uk/ljs)
  * nacl (http://code.google.com/p/nativeclient/)
- * emscripten (http://code.google.com/p/emscripten/)
+ * emscripten (https://github.com/kripken/emscripten)
  * jill (http://code.google.com/p/jillcode/), as Java applet (with some js-lua-like wrapper)
  * lua.js (https://github.com/mherkender/lua.js)
  * brozula (https://github.com/creationix/brozula)
