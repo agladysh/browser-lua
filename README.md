@@ -23,7 +23,9 @@ Planned backends
 ----------------
 
  * lua-alchemy (http://code.google.com/p/lua-alchemy)
- * js-lua (http://github.com/agladysh/js-lua)
+ * lua5.1.js (https://github.com/logiceditor-com/lua5.1.js)
+ * lua.vm.js (http://kripken.github.io/lua.vm.js/lua.vm.js.html)
+ * ~~js-lua (http://github.com/agladysh/js-lua)~~
  * ljs (http://code.matthewwild.co.uk/ljs)
  * nacl (http://code.google.com/p/nativeclient/)
  * emscripten (https://github.com/kripken/emscripten)
